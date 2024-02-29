@@ -1,4 +1,4 @@
-api-AR24
+#api-AR24
 AR24 API Symfony
 
 #clone project into www directory
@@ -25,4 +25,10 @@ root@CONTAINER_ID:/var/www# cd project
 
 #change permissions to log and cache folders if has problem after test API
 
-root@CONTAINER_ID:/var/www/p
+root@CONTAINER_ID:/var/www/project# chmod -R 0777 var/log/
+
+root@CONTAINER_ID:/var/www/project# chmod -R 0777 var/cache/
+
+#open project on browser
+
+http://localhost:8741/
