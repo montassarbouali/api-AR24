@@ -14,6 +14,6 @@ post-send-mail:
   path: /mail/send
   controller: App\Controller\UserController::sendMail
 
-post-get-mail:
+get-mail-info:
   path: /mail
   controller: App\Controller\UserController::getMailInfo
