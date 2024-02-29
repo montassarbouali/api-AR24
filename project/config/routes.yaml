@@ -6,14 +6,14 @@ get_user_info:
   path: /user
   controller: App\Controller\UserController::getUserInfo
 
-post-upload-an-attachment:
+post_upload_an_attachment:
   path: /user/attachment
   controller: App\Controller\UserController::uploadAttachment
 
-post-send-mail:
+post_send_mail:
   path: /mail/send
   controller: App\Controller\UserController::sendMail
 
-get-mail-info:
+get_mail_info:
   path: /mail
   controller: App\Controller\UserController::getMailInfo
