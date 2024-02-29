@@ -13,7 +13,7 @@ cd api-AR24
 
 #run docker-compose
 
-sudo docker-compose up -d
+sudo docker-compose up --build
 
 #access to test-technique_www image
 
