@@ -1,0 +1,19 @@
+post_user_create:
+  path: /user/create
+  controller: App\Controller\UserController::createUser
+
+get_user_info:
+  path: /user
+  controller: App\Controller\UserController::getUserInfo
+
+post-upload-an-attachment:
+  path: /user/attachment
+  controller: App\Controller\UserController::uploadAttachment
+
+post-send-mail:
+  path: /mail/send
+  controller: App\Controller\UserController::sendMail
+
+post-get-mail:
+  path: /mail
+  controller: App\Controller\UserController::getMailInfo

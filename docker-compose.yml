@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  www:
+    build: php
+    container_name: www_ar24_api
+    ports:
+      - "8741:80"
+    volumes:
+      - ./php/vhosts:/etc/apache2/sites-enabled
+      - ./:/var/www
+    restart: always
+    networks:
+      - dev
+networks:
+  dev:
